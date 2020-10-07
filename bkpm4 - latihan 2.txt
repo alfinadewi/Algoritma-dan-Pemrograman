@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+import java.util.Scanner;
+/**
+ *
+ * @author admin
+ */
+public class latihan2 {
+   public static void main(String[] args) {
+   Scanner alfinadewi = new Scanner(System.in);
+   String predikat;
+   System.out.println("Berapa nilai anda ?");
+   System.out.print("Masukan nilai = ");int nilai = alfinadewi.nextInt();
+   if (nilai <= 55){
+    predikat = "E";   
+    }else if (nilai <= 65){
+    predikat = "D";   
+    }else if (nilai <= 75){
+    predikat = "C";   
+    }else if (nilai <= 85){
+    predikat = "B";   
+    }else if (nilai <= 100){
+    predikat = "A";
+    }else{
+    predikat = "Error";
+    }
+   System.out.println(""+nilai+" , Anda mendapat predikat "+predikat);
+    }
+}

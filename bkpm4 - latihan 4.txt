@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author admin
+ */
+public class latihan4 {
+    public static void main(String[] args) {
+        
+   Scanner alfinadewi = new Scanner(System.in);
+   String huruf;
+   System.out.print("nilai : ");int nilai = alfinadewi.nextInt();
+   if (nilai == 0){
+    huruf = "E";   
+    }else if (nilai == 1){
+    huruf = "D";   
+    }else if (nilai == 2){
+    huruf = "C";   
+    }else if (nilai == 3){
+    huruf = "B";   
+    }else if (nilai == 4){
+    huruf = "A";
+    }else{
+    huruf = "Error";
+    }
+   System.out.println(""+huruf);
+    }
+}
